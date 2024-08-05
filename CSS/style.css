@@ -1,0 +1,117 @@
+#skiptomaincontent{
+    position: absolute;
+    top: -100px;
+    padding: 4%;
+    z-index: 99999;
+}
+
+#skiptomaincontent:focus{
+    top: 0px;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+li{
+    display: grid;
+    place-items:center;
+    width: 15%;
+    height: 70px;
+    margin: 5px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border: solid;
+    box-sizing: border-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(28, 28, 95);
+    background-position: center;
+    border-radius: 4px;
+    font-size: 110%;
+   
+    
+}
+
+#dino {
+    text-decoration: none;
+    color:white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ 
+}
+
+#seacreatures{
+    text-decoration: none;
+    color:white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#food{
+    text-decoration: none;
+    color:white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+li:hover{
+    background-color: rgb(33, 76, 156);
+}
+
+nav{
+    background-color: aliceblue;
+}
+
+h1{
+    text-align: center;
+    color:  rgb(28, 28, 95);
+}
+
+h2{
+    text-align: center;
+    color:  rgb(28, 28, 95);
+}
+
+p{
+    text-align: center;
+    color:  rgb(28, 28, 95);
+}
+
+#outercontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#dinoimages{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    max-width: 1000px;
+    padding: 10px;
+}
+
+#dinoimages img{
+    border-radius: 20px;
+    border-style:dotted;
+}
+
+#foodimages{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    max-width: 1000px;
+    padding: 10px;
+}
+
+#foodimages img{
+    border-radius: 20px;
+    border-style: dotted;
+}
+
+#foodimages img:nth-child(2){
+   border-style: dashed;
+}
+
+
+
